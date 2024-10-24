@@ -15,6 +15,8 @@ import com.example.practice.ui.theme.PracticeTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
